@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data and generated artefacts (rebuild with `python retrieval.py --build`)
+images/
+datasets/
+index.faiss
+meta.json
+query_results.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

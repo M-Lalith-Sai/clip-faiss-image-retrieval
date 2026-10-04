@@ -1,0 +1,11 @@
+torch
+torchvision
+ftfy
+regex
+tqdm
+numpy
+pillow
+matplotlib
+faiss-cpu
+streamlit
+clip @ git+https://github.com/openai/CLIP.git
