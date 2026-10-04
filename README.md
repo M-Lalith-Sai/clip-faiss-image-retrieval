@@ -40,7 +40,12 @@ streamlit run app.py
 
 The app lets you search the index and upload new images, which are added to the existing index without re-encoding what is already there (already-indexed paths are skipped).
 
-More example queries are in [docs/example_queries.md](docs/example_queries.md).
+Example queries used for qualitative inspection:
+
+- fluorescent microscopy image of dense neuron cluster
+- fluorescent microscopy image of bipolar neurons
+- microscopy image of cells undergoing apoptosis
+- microscopy image showing cells undergoing mitosis
 
 ## Data
 
@@ -65,7 +70,6 @@ If you reuse the neuron images, follow that dataset's licence and cite its autho
 ```
 retrieval.py   index building, querying, incremental dataset add, CLI
 app.py         Streamlit interface
-docs/          example queries
 ```
 
 ## Citation
